@@ -10,7 +10,10 @@
     "test:unit": "jest",
     "test:watch": "jest --watch",
     "test:watchAll": "jest --watchAll",
-    "test:coverage": "yarn test:unit --coverage"
+    "test:coverage": "yarn test:unit --coverage",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test:e2e": "start-server-and-test dev http://localhost:3000 cypress:run"
   },
   "dependencies": {
     "next": "12.1.6",
@@ -30,9 +33,11 @@
     "@types/testing-library__jest-dom": "^5.14.5",
     "@typescript-eslint/eslint-plugin": "^5.29.0",
     "@typescript-eslint/parser": "^5.29.0",
+    "cypress": "^10.2.0",
     "eslint": "^8.18.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "^26.5.3",
@@ -45,6 +50,7 @@
     "jest": "^28.1.1",
     "jest-environment-jsdom": "^28.1.1",
     "react-test-renderer": "^18.2.0",
+    "start-server-and-test": "^1.14.0",
     "typescript": "4.7.4"
   }
 }
