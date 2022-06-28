@@ -28,6 +28,11 @@ module.exports = {
   ],
   overrides: [
     {
+      extends: ['plugin:cypress/recommended'],
+      files: ['cypress/**/*.ts'],
+      rules: {},
+    },
+    {
       files: ['*.ts', '*.tsx'],
       extends: [
         'plugin:@typescript-eslint/eslint-recommended',
