@@ -3,6 +3,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    jest: true,
   },
   ignorePatterns: [
     '.next/',
@@ -15,6 +16,8 @@ module.exports = {
     'simple-import-sort',
     'unused-imports',
     'flowtype',
+    'jest',
+    'testing-library',
   ],
   extends: [
     'airbnb',
