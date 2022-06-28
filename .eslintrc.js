@@ -3,6 +3,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    jest: true,
   },
   ignorePatterns: [
     '.next/',
@@ -15,15 +16,25 @@ module.exports = {
     'simple-import-sort',
     'unused-imports',
     'flowtype',
+    'jest',
+    'testing-library',
   ],
   extends: [
     'airbnb',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@next/next/recommended',
+  ],
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      extends: [
+        'plugin:@typescript-eslint/eslint-recommended',
+        'plugin:@typescript-eslint/recommended',
+      ],
+      rules: {},
+    },
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
