@@ -18,6 +18,7 @@ module.exports = {
     'flowtype',
     'jest',
     'testing-library',
+    '@emotion',
   ],
   extends: [
     'airbnb',
