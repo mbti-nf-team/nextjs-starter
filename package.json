@@ -6,14 +6,21 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint --ext ts,tsx .",
+    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}' --fix",
     "test:unit": "jest",
     "test:watch": "jest --watch",
     "test:watchAll": "jest --watchAll",
     "test:coverage": "yarn test:unit --coverage",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "test:e2e": "start-server-and-test dev http://localhost:3000 cypress:run"
+    "test:e2e": "start-server-and-test dev http://localhost:3000 cypress:run",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "yarn lint",
+      "yarn test:unit --findRelatedTests --passWithNoTests"
+    ]
   },
   "dependencies": {
     "@emotion/react": "^11.9.3",
@@ -50,8 +57,10 @@
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-testing-library": "^5.5.1",
     "eslint-plugin-unused-imports": "^2.0.0",
+    "husky": "^8.0.1",
     "jest": "^28.1.1",
     "jest-environment-jsdom": "^28.1.1",
+    "lint-staged": "^13.0.3",
     "react-test-renderer": "^18.2.0",
     "start-server-and-test": "^1.14.0",
     "typescript": "4.7.4"
