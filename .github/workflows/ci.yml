@@ -36,7 +36,7 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           install: false
-          command: yarn test:e2e --record
+          command: yarn start-server-and-test dev http://localhost:3000 'cypress:run --record'
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
