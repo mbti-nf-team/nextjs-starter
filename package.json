@@ -1,7 +1,26 @@
 {
   "name": "nextjs-starter",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "A Next.js starter kit template with React v18 + Emotion + Yarn berry + TypeScript + ESLint + Husky + Jest + Cypress + Github Actions",
+  "license": "MIT",
+  "author": "harang",
+  "keywords": [
+    "react",
+    "next-starter-kit",
+    "next-starter",
+    "nextjs",
+    "emotion",
+    "jest",
+    "eslint",
+    "react-testing-library",
+    "cypress",
+    "yarn-berry",
+    "husky",
+    "github-actions",
+    "typescript",
+    "swc",
+    "nextjs-template"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -22,6 +41,14 @@
       "yarn test:unit --findRelatedTests --passWithNoTests"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennie-harang/nextjs-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jennie-harang/nextjs-starter/issues"
+  },
+  "homepage": "https://github.com/jennie-harang/nextjs-starter#readme",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
