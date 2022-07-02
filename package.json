@@ -1,6 +1,6 @@
 {
-  "name": "nextjs-starter",
-  "version": "1.0.0",
+  "name": "@harang-jennie/nextjs-starter",
+  "version": "1.0.3",
   "description": "A Next.js starter kit template with React v18 + Emotion + Yarn berry + TypeScript + ESLint + Husky + Jest + Cypress + Github Actions",
   "license": "MIT",
   "author": "harang",
@@ -21,6 +21,7 @@
     "swc",
     "nextjs-template"
   ],
+  "bin": "bin/cli.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
