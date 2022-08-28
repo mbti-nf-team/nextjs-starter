@@ -5,9 +5,9 @@
   </a>
 </p>
 
-[![codecov](https://codecov.io/gh/jennie-harang/nextjs-starter/branch/main/graph/badge.svg?token=GmcBgBiMo7)](https://codecov.io/gh/jennie-harang/nextjs-starter) [![next-starter](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/qh6iij&style=flat-square&logo=cypress)](https://dashboard.cypress.io/projects/qh6iij/runs)
+[![codecov](https://codecov.io/gh/jenny-harang/nextjs-starter/branch/main/graph/badge.svg?token=GmcBgBiMo7)](https://codecov.io/gh/jenny-harang/nextjs-starter) [![next-starter](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/qh6iij&style=flat-square&logo=cypress)](https://dashboard.cypress.io/projects/qh6iij/runs)
 
-![yarn](https://img.shields.io/badge/yarn-3.2.1-blue?logo=yarn) ![react](https://img.shields.io/github/package-json/dependency-version/jennie-harang/nextjs-starter/react?logo=react) ![typescript](https://img.shields.io/github/package-json/dependency-version/jennie-harang/nextjs-starter/dev/typescript?logo=typescript) ![jest](https://img.shields.io/github/package-json/dependency-version/jennie-harang/nextjs-starter/dev/jest?logo=jest) ![cypress](https://img.shields.io/github/package-json/dependency-version/jennie-harang/nextjs-starter/dev/cypress?logo=cypress) ![eslint](https://img.shields.io/github/package-json/dependency-version/jennie-harang/nextjs-starter/dev/eslint?logo=eslint) 
+![yarn](https://img.shields.io/badge/yarn-3.2.1-blue?logo=yarn) ![next.js](https://img.shields.io/github/package-json/dependency-version/jennie-harang/nextjs-starter/next?logo=next.js) ![react](https://img.shields.io/github/package-json/dependency-version/jennie-harang/nextjs-starter/react?logo=react) ![typescript](https://img.shields.io/github/package-json/dependency-version/jennie-harang/nextjs-starter/dev/typescript?logo=typescript) ![jest](https://img.shields.io/github/package-json/dependency-version/jennie-harang/nextjs-starter/dev/jest?logo=jest) ![cypress](https://img.shields.io/github/package-json/dependency-version/jennie-harang/nextjs-starter/dev/cypress?logo=cypress) ![eslint](https://img.shields.io/github/package-json/dependency-version/jennie-harang/nextjs-starter/dev/eslint?logo=eslint) 
 
 A Next.js starter kit template with React v18 + Emotion + Yarn berry + TypeScript + ESLint + Husky + Jest + Cypress + Github Actions
 
