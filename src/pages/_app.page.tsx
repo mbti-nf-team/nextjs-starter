@@ -1,5 +1,6 @@
-import { ThemeProvider } from '@emotion/react';
 import type { AppProps } from 'next/app';
+
+import { ThemeProvider } from '@emotion/react';
 
 import lightTheme from '@/styles/theme';
 
