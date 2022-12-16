@@ -692,7 +692,7 @@ __metadata:
     "@types/testing-library__jest-dom": ^5.14.5
     "@typescript-eslint/eslint-plugin": ^5.29.0
     "@typescript-eslint/parser": ^5.29.0
-    cypress: ^10.2.0
+    cypress: ^12.1.0
     eslint: ^8.18.0
     eslint-config-airbnb: ^19.0.4
     eslint-import-resolver-typescript: ^2.7.1
@@ -2735,9 +2735,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:^10.2.0":
-  version: 10.2.0
-  resolution: "cypress@npm:10.2.0"
+"cypress@npm:^12.1.0":
+  version: 12.1.0
+  resolution: "cypress@npm:12.1.0"
   dependencies:
     "@cypress/request": ^2.88.10
     "@cypress/xvfb": ^1.2.4
@@ -2758,7 +2758,7 @@ __metadata:
     dayjs: ^1.10.4
     debug: ^4.3.2
     enquirer: ^2.3.6
-    eventemitter2: ^6.4.3
+    eventemitter2: 6.4.7
     execa: 4.1.0
     executable: ^4.1.1
     extract-zip: 2.0.1
@@ -2783,7 +2783,7 @@ __metadata:
     yauzl: ^2.10.0
   bin:
     cypress: bin/cypress
-  checksum: 1fd687658e036b2fd07031bde5a2f40ab61f664ca802ae650e0e15786d8825b38bb9444dffd8528b90a8e539e18241be6d5eaab7d5ae05d941839e2481e09342
+  checksum: 238ea125f396594a84ba096e0eaebe6f0d6b60b3b232a3f6e36420f9fa7a9218211df8dc6ad2a4f6cc0cc2fd77d4e0eb0932b409a73ff8434e78e880a36f59a7
   languageName: node
   linkType: hard
 
@@ -3585,10 +3585,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eventemitter2@npm:^6.4.3":
-  version: 6.4.5
-  resolution: "eventemitter2@npm:6.4.5"
-  checksum: 84504f9cf0cc30205cdd46783fe9df3733435e5097f13070b678023110b5ef07847651808ae280cd94c42cd5976880211c7a40321a8ff8fa56f7c5f9c5c11960
+"eventemitter2@npm:6.4.7":
+  version: 6.4.7
+  resolution: "eventemitter2@npm:6.4.7"
+  checksum: 1b36a77e139d6965ebf3a36c01fa00c089ae6b80faa1911e52888f40b3a7057b36a2cc45dcd1ad87cda3798fe7b97a0aabcbb8175a8b96092a23bb7d0f039e66
   languageName: node
   linkType: hard
 
