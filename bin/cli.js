@@ -55,7 +55,7 @@ if (process.argv.length < 3) {
 const projectName = process.argv[2];
 const currentPath = process.cwd();
 const projectPath = path.join(currentPath, projectName);
-const GIT_REPOSITORY = 'https://github.com/jennie-harang/nextjs-starter';
+const GIT_REPOSITORY = 'https://github.com/mbti-nf-team/nextjs-starter';
 
 const gitCloneOrderArray = ['git', 'clone', '--depth', '1', GIT_REPOSITORY, projectPath];
 const gitCloneCommand = gitCloneOrderArray.map((item) => item.replace(/\s/g, '')).join(' ');
@@ -100,11 +100,14 @@ async function run() {
     }
 
     console.log('');
-    console.log('📦 Installing dependencies:');
+    console.log('📦 Installing dependencies...');
     execSync('yarn install');
     console.log('');
-    console.log('🔥 Removing useless files:');
+    console.log('🗑️ Removing useless files...');
     execSync('npx rimraf ./.git');
+    console.log('');
+    console.log('🗑️ Removing useless dependencies...');
+    execSync('yarn remove semantic-release @types/semantic-release');
     console.log('');
     console.log(`${colors.fg.cyan}%s${colors.reset}`, 'Successfully installed!');
     console.log('');

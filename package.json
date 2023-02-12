@@ -33,23 +33,16 @@
     "test:coverage": "yarn test:unit --coverage",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "test:e2e": "start-server-and-test dev http://localhost:3000 cypress:run",
-    "prepare": "husky install"
-  },
-  "lint-staged": {
-    "*.{ts,tsx}": [
-      "yarn lint",
-      "yarn test:unit --findRelatedTests --passWithNoTests"
-    ]
+    "test:e2e": "start-server-and-test dev http://localhost:3000 cypress:run"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jennie-harang/nextjs-starter.git"
+    "url": "https://github.com/mbti-nf-team/nextjs-starter.git"
   },
   "bugs": {
-    "url": "https://github.com/jennie-harang/nextjs-starter/issues"
+    "url": "https://github.com/mbti-nf-team/nextjs-starter/issues"
   },
-  "homepage": "https://github.com/jennie-harang/nextjs-starter#readme",
+  "homepage": "https://github.com/mbti-nf-team/nextjs-starter#readme",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -68,6 +61,7 @@
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
     "@types/react-test-renderer": "^18.0.0",
+    "@types/semantic-release": "^20",
     "@types/testing-library__jest-dom": "^5.14.5",
     "@typescript-eslint/eslint-plugin": "^5.29.0",
     "@typescript-eslint/parser": "^5.29.0",
@@ -85,11 +79,10 @@
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-testing-library": "^5.5.1",
     "eslint-plugin-unused-imports": "^2.0.0",
-    "husky": "^8.0.1",
     "jest": "^29.3.1",
     "jest-environment-jsdom": "^29.3.1",
-    "lint-staged": "^13.0.3",
     "react-test-renderer": "^18.2.0",
+    "semantic-release": "^20.1.0",
     "start-server-and-test": "^1.14.0",
     "typescript": "4.7.4"
   },
