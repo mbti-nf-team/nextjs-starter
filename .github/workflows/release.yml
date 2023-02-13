@@ -1,7 +1,8 @@
 name: "NPM Release"
+
 on:
-  release:
-    types: [published]
+  push:
+    branches: [main]
 
 jobs:
   build:
