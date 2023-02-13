@@ -105,6 +105,9 @@ async function run() {
     console.log('');
     console.log('🗑️ Removing useless files...');
     execSync('npx rimraf ./.git');
+    execSync('npx rimraf ./.github/workflows/release.yml');
+    execSync('npx rimraf ./.releaserc');
+    execSync('npx rimraf ./bin');
     console.log('');
     console.log('🗑️ Removing useless dependencies...');
     execSync('yarn remove semantic-release @types/semantic-release');
