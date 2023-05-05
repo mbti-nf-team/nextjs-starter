@@ -33,10 +33,10 @@ jobs:
           fail_ci_if_error: true
 
       - name: Check e2e Test
-        uses: cypress-io/github-action@v2
+        uses: cypress-io/github-action@v5
         with:
-          install: false
-          command: yarn test:e2e
+          install-command: yarn install
+          command: yarn dlx cypress run
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
