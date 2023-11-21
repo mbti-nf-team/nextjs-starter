@@ -20,6 +20,12 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
     "plugins": [
       {
         "name": "next"
@@ -31,7 +37,8 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "./jest-setup.ts"
   ],
   "exclude": [
     "node_modules",
