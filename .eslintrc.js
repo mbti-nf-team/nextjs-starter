@@ -44,11 +44,9 @@ module.exports = {
       extends: [
         'airbnb-typescript',
         'plugin:@typescript-eslint/recommended',
-        'plugin:flowtype/recommended',
       ],
       plugins: [
         '@typescript-eslint',
-        'flowtype',
       ],
       rules: {
         // set your typescript rules
