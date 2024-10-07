@@ -21,15 +21,10 @@ module.exports = {
     'plugin:@next/next/recommended',
   ],
   plugins: [
+    'simple-import-sort',
+    'unused-imports',
     // set your plugins
   ],
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-    ecmaVersion: 12,
-    sourceType: 'module',
-  },
   settings: {
     'import/resolver': {
       alias: {
@@ -53,6 +48,11 @@ module.exports = {
       },
       parser: '@typescript-eslint/parser',
       parserOptions: {
+        ecmaFeatures: {
+          jsx: true,
+        },
+        ecmaVersion: 12,
+        sourceType: 'module',
         project: ['./tsconfig.json'],
       },
     },
@@ -79,6 +79,9 @@ module.exports = {
     },
   ],
   rules: {
+    'simple-import-sort/exports': 'error',
+    'unused-imports/no-unused-imports': 'error',
+    'simple-import-sort/imports': 'error',
     // set your rules
   },
 };
