@@ -1,6 +1,6 @@
 {
   "name": "@harang-jennie/nextjs-starter",
-  "version": "2.3.1",
+  "version": "2.4.0",
   "description": "A Next.js starter kit App Router template with React v18 + Yarn berry + TypeScript + ESLint + Jest + Cypress + Github Actions",
   "license": "MIT",
   "author": "Harang",
