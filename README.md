@@ -9,7 +9,7 @@
 
 ![yarn](https://img.shields.io/badge/yarn-4.5.0-blue?logo=yarn) ![next.js](https://img.shields.io/github/package-json/dependency-version/mbti-nf-team/nextjs-starter/next?logo=next.js) ![react](https://img.shields.io/github/package-json/dependency-version/mbti-nf-team/nextjs-starter/react?logo=react) ![typescript](https://img.shields.io/github/package-json/dependency-version/mbti-nf-team/nextjs-starter/dev/typescript?logo=typescript) ![jest](https://img.shields.io/github/package-json/dependency-version/mbti-nf-team/nextjs-starter/dev/jest?logo=jest) ![cypress](https://img.shields.io/github/package-json/dependency-version/mbti-nf-team/nextjs-starter/dev/cypress?logo=cypress) ![eslint](https://img.shields.io/github/package-json/dependency-version/mbti-nf-team/nextjs-starter/dev/eslint?logo=eslint) ![eslint](https://img.shields.io/github/repo-size/mbti-nf-team/offbeat-frontend?logo=yarn&style=flat-square)   
 
-A Next.js starter kit app router template with React v18 + Yarn berry + TypeScript + ESLint + Jest + Cypress + Github Actions
+A Next.js starter kit app router template with React v18 + Scss + Yarn berry + TypeScript + ESLint + Jest + Cypress + Github Actions
 
 ## 🚀 Quick Overview
 
@@ -25,6 +25,22 @@ cd my-nextjs-app
 ```
 
 > [Why should you upgrade to Yarn Modern?](https://yarnpkg.com/getting-started/qa#why-should-you-upgrade-to-yarn-modern)
+
+
+## 💻 eslint extends
+- [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
+- [eslint-config-airbnb-typescript](https://www.npmjs.com/package/eslint-config-airbnb-typescript)
+- [eslint-import-resolver-alias](https://www.npmjs.com/package/eslint-import-resolver-alias)
+- [eslint-import-resolver-typescript](https://www.npmjs.com/package/eslint-import-resolver-typescript)
+- [eslint-plugin-cypress](https://www.npmjs.com/package/eslint-plugin-cypress)
+- [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
+- [eslint-plugin-jest](https://www.npmjs.com/package/eslint-plugin-jest)
+- [eslint-plugin-jsx-a11y](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
+- [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
+- [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)
+- [eslint-plugin-testing-library](https://www.npmjs.com/package/eslint-plugin-testing-library)
+- [eslint-plugin-unused-imports](https://www.npmjs.com/package/eslint-plugin-unused-imports)
+- [eslint-plugin-simple-import-sort](https://www.npmjs.com/package/eslint-plugin-simple-import-sort)
 
 ## 🔒 LICENSE
 This Project is [MIT licensed](https://github.com/jennie-harang/nextjs-starter/blob/main/LICENSE).
