@@ -9,14 +9,12 @@
 
 ![yarn](https://img.shields.io/badge/yarn-4.5.3-blue?logo=yarn) ![next.js](https://img.shields.io/github/package-json/dependency-version/mbti-nf-team/nextjs-starter/next?logo=next.js) ![react](https://img.shields.io/github/package-json/dependency-version/mbti-nf-team/nextjs-starter/react?logo=react) ![typescript](https://img.shields.io/github/package-json/dependency-version/mbti-nf-team/nextjs-starter/dev/typescript?logo=typescript) ![jest](https://img.shields.io/github/package-json/dependency-version/mbti-nf-team/nextjs-starter/dev/jest?logo=jest) ![cypress](https://img.shields.io/github/package-json/dependency-version/mbti-nf-team/nextjs-starter/dev/cypress?logo=cypress) ![eslint](https://img.shields.io/github/package-json/dependency-version/mbti-nf-team/nextjs-starter/dev/eslint?logo=eslint) ![eslint](https://img.shields.io/github/repo-size/mbti-nf-team/offbeat-frontend?logo=yarn&style=flat-square)   
 
-A Next.js starter kit app router template with React v18 + Scss + Yarn berry + TypeScript + ESLint + Jest + Cypress + Github Actions
+A Next.js starter kit app router template with React v19 + Scss + Yarn berry + TypeScript + ESLint + Jest + Cypress + Github Actions
 
 ## 🚀 Quick Overview
 
 This project using [Yarn berry](https://yarnpkg.com/features/pnp) (Yarn V.2+) with [zero install](https://yarnpkg.com/features/zero-installs).   
 Therefore, `yarn` must be installed before using this next.js starter template.    
-
-In [next.js v13.4.0](https://nextjs.org/blog/next-13-4), the [App router](https://nextjs.org/docs/app) is in a stable state. So, this next.js starter kit uses the app router as the default.
 
 ```bash
 npm install -g yarn
@@ -25,7 +23,6 @@ cd my-nextjs-app
 ```
 
 > [Why should you upgrade to Yarn Modern?](https://yarnpkg.com/getting-started/qa#why-should-you-upgrade-to-yarn-modern)
-
 
 ## 💻 eslint extends
 - [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
